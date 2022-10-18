@@ -79,3 +79,10 @@ body {
     font-weight: 400;
     font-size: 6em;
 }
+
+
+footer {
+    background-image: url(photos/patryk-gauza-vs0tzSHVcac-unsplash.jpg);
+    color: white;
+    text-transform: uppercase;
+}
