@@ -33,7 +33,7 @@
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #1c0c0c;
     color: white;
 }
 
@@ -86,6 +86,15 @@
     padding-bottom: 5px;
 }
 
+.inner_footer .footer-third .art-text {
+    color: yellow;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-shadow: 5px 10px, 10px 20px, 15px 30px, 20px 40px;
+}
+
 .inner_footer .footer-third li {
     display: inline-block;
     padding: 0 5px;
@@ -101,7 +110,11 @@
     width: 100%;
     padding-top: 20px;
 }
-/* Having serious issues with descendent selectors. What exactly is my problem? It will not select a tags or image tags, but will select the h1 tag.*/
+
+.copyright {
+    display: block;
+    float: bottom;
+}
 
 @media(max-width: 450px) {
     .footer .inner_footer {
