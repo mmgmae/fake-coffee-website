@@ -37,25 +37,25 @@
     color: white;
 }
 
-.inner-footer {
+.inner_footer {
     display: block;
     margin: 0 auto;
     width: 1100px;
     height: 100%;
 }
 
-.inner-footer .logo-container {
+.inner_footer .logo-container {
     width: 35%;
     float: left;
     height: 100%;
     display: block;
 }
 
-.inner-footer .logo-container img {
+.inner_footer .logo-container img {
     width: 50px;
     height: auto;
 }
-.inner-footer .footer-third {
+.inner_footer .footer-third {
     width: calc(21.6666666667% - 20px);
     margin-right: 10px;
     float: left;
@@ -66,7 +66,7 @@
     margin-right: 0;
 }
 
-.inner-footer .footer-third h1 { 
+.inner_footer .footer-third h1 { 
     font-family: 'arial';
     font-size: 22px;
     color: white;
@@ -75,7 +75,7 @@
     margin-bottom: 20px;
 }
 
-.inner-footer .footer-third a { 
+.inner_footer .footer-third a { 
     font-family: 'arial';
     font-size: 18px;
     padding: 5px;
@@ -86,13 +86,13 @@
     padding-bottom: 5px;
 }
 
-.inner-footer .footer-third li {
+.inner_footer .footer-third li {
     display: inline-block;
     padding: 0 5px;
     font-size: 20px;
 }
 
-.inner-footer .footer-third span {
+.inner_footer .footer-third span {
     color: white;
     font-family: 'arial';
     font-size: 16px;
@@ -104,12 +104,12 @@
 /* Having serious issues with descendent selectors. What exactly is my problem? It will not select a tags or image tags, but will select the h1 tag.*/
 
 @media(max-width: 450px) {
-    .footer .inner-footer {
+    .footer .inner_footer {
         width: 90%;
     }
 
-    .inner-footer .logo-container,
-    .inner-footer .footer-third {
+    .inner_footer .logo-container,
+    .inner_footer .footer-third {
         width: 100%;
         margin-bottom: 30px;
     }
