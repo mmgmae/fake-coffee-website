@@ -88,11 +88,13 @@
 
 .inner_footer .footer-third .art-text {
     color: yellow;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 100;
     font-size: 1.2rem;
-    text-shadow: 5px 10px, 10px 20px, 15px 30px, 20px 40px;
+    text-shadow: 5px 12px, 10px 23px, 15px 34px, 20px 45px;
 }
 
 .inner_footer .footer-third li {
