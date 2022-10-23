@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Helvetica Neue';
+    background-color: #1c0c0c;
 }
 
 
@@ -28,6 +29,26 @@
     letter-spacing: -4px;
 }
 
+/* Main Body Styling */
+
+.art-text {
+    color: yellow;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-shadow: 5px 12px, 10px 23px, 15px 34px, 20px 45px;
+}
+
+.images img {
+    width: 10em;
+}
+
+main {
+    font-style: italic;
+    color: white;
+}
 
 /* Footer Styling */
 
