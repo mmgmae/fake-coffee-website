@@ -29,6 +29,17 @@
     letter-spacing: -4px;
 }
 
+.navbar .navlink a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar .navlink a:hover{
+    color: yellow;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 /* Main Body Styling */
 
 .art-text {
