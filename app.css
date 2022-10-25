@@ -40,6 +40,10 @@
     text-decoration: underline;
 }
 
+.navbar p {
+    font-style: italic;
+}
+
 /* Main Body Styling */
 
 .art-text {
@@ -78,6 +82,7 @@ main {
     margin: 0 auto;
     width: 1100px;
     height: 100%;
+    text-transform: uppercase;
 }
 
 .inner_footer .logo-container {
