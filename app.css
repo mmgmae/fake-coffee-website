@@ -46,6 +46,13 @@
 
 /* Main Body Styling */
 
+.images .pour {
+    mix-blend-mode: hard-light;
+}
+
+.images .sign {
+    mix-blend-mode: color-dodge;
+}
 .art-text {
     color: yellow;
     font-family: 'Raleway', sans-serif;
@@ -66,6 +73,14 @@ main {
 }
 
 /* Footer Styling */
+
+hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid yellow;
+    margin: 1em 0; padding: 0;
+}
 
 .footer {
     width: 100vw;
