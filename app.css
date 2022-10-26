@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Helvetica Neue';
+    font-family: 'Raleway', sans-serif;
     background-color: #1c0c0c;
 }
 
@@ -75,6 +75,7 @@ main {
     box-sizing: border-box;
     background-color: #1c0c0c;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .inner_footer {
@@ -108,16 +109,16 @@ main {
 }
 
 .inner_footer .footer-third h1 { 
-    font-family: 'arial';
     font-size: 22px;
     color: white;
     display: block;
     width: 100%;
     margin-bottom: 20px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .inner_footer .footer-third a { 
-    font-family: 'arial';
     font-size: 18px;
     padding: 5px;
     color: white;
@@ -145,7 +146,6 @@ main {
 
 .inner_footer .footer-third span {
     color: white;
-    font-family: 'arial';
     font-size: 16px;
     font-weight: 200;
     display: block;
