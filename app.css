@@ -47,10 +47,13 @@
 
 .images .pour {
     mix-blend-mode: hard-light;
+    width: 50vmax;
 }
 
 .images .sign {
     mix-blend-mode: color-dodge;
+    width: 50vmax;
+
 }
 .art-text {
     color: yellow;
