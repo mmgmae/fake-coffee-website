@@ -43,6 +43,12 @@
     font-style: italic;
 }
 
+.navbar .bar-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Main Body Styling */
 
 .images .pour {
