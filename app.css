@@ -28,13 +28,13 @@
     letter-spacing: -4px;
 }
 
-.navbar .navlink a{
+.navlink a{
     color: white;
     text-transform: uppercase;
     font-style: italic;
 }
 
-.navbar .navlink a:hover{
+.navlink a:hover{
     color: yellow;
     font-style: italic;
     text-decoration: underline;
@@ -50,6 +50,28 @@
     align-items: center;
 }
 
+/* Flex Styling for Cards */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+.cards .art-text {
+    transform: translateX(-3em) translateY(15em);
+    background-color: transparent;
+}
+
+/* Flex Styling for Words - under cards*/
+.words {
+    display: flex;
+}
+
+.images .sign {
+    transform: translateY(-20em);
+}
+
 /* Main Body Styling */
 
 .images .pour {
@@ -59,7 +81,7 @@
 
 .images .sign {
     mix-blend-mode: color-dodge;
-    width: 50vmax;
+    width: 35vmax;
 
 }
 .art-text {
