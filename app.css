@@ -58,6 +58,10 @@
     flex-wrap: no-wrap;
 }
 
+.cards .nav {
+    text-align: end;
+}
+
 .cards .art-text {
     transform: translateX(-3em) translateY(15em);
     background-color: transparent;
