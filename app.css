@@ -63,7 +63,7 @@
 }
 
 .cards .art-text {
-    transform: translateX(-3em) translateY(15em);
+    transform: translateX(-3em) translateY(10em);
     background-color: transparent;
 }
 
@@ -80,7 +80,7 @@
 
 .images .pour {
     mix-blend-mode: hard-light;
-    width: 50vmax;
+    width: 35vmax;
 }
 
 .images .sign {
@@ -94,8 +94,8 @@
     text-transform: uppercase;
     font-style: italic;
     font-weight: 100;
-    font-size: 1.2rem;
-    text-shadow: 5px 12px, 10px 23px, 15px 34px, 20px 45px;
+    font-size: 2.4rem;
+    text-shadow: 5px 20px, 10px 40px, 15px 60px, 20px 80px;
 }
 
 .images img {
