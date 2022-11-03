@@ -50,25 +50,20 @@
     align-items: center;
 }
 
-/* Flex Styling for Cards */
+/* Flex Styling for containter-top */
 
-.cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: no-wrap;
-}
 
 .cards .nav {
     text-align: end;
 }
 
 .cards .art-text {
-    transform: translateX(-3em) translateY(10em);
+    transform: translateX(-3em) translateY(5em);
     background-color: transparent;
 }
 
-/* Flex Styling for Words - under cards*/
-.words {
+/* Flex Styling for container-bottom*/
+.container-bottom {
     display: flex;
 }
 
@@ -98,9 +93,6 @@
     text-shadow: 5px 20px, 10px 40px, 15px 60px, 20px 80px;
 }
 
-.images img {
-    width: 10em;
-}
 
 main {
     font-style: italic;
