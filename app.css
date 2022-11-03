@@ -52,17 +52,26 @@
 
 /* Flex Styling for containter-top */
 
+.container-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 
-.cards .nav {
+}
+
+.container-top .nav {
     text-align: end;
 }
 
-.cards .art-text {
+.container-top .art-text {
     transform: translateX(-3em) translateY(5em);
     background-color: transparent;
 }
 
 /* Flex Styling for container-bottom*/
+
 .container-bottom {
     display: flex;
 }
@@ -201,6 +210,9 @@ hr {
     display: block;
     float: bottom;
 }
+
+
+/* Media Queries */
 
 @media(max-width: 450px) {
     .footer .inner_footer {
