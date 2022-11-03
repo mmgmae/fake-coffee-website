@@ -74,6 +74,7 @@
 
 .container-bottom {
     display: flex;
+    align-items: center;
 }
 
 .images .sign {
@@ -107,6 +108,8 @@ main {
     font-style: italic;
     color: white;
     font-size: 1.5em;
+    text-align: center;
+    line-height: 2.5em;
 }
 
 /* Footer Styling */
