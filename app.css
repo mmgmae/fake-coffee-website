@@ -39,6 +39,7 @@
     color: yellow;
     font-style: italic;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .navbar p {
