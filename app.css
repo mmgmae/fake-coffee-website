@@ -32,6 +32,7 @@
     color: white;
     text-transform: uppercase;
     font-style: italic;
+    text-decoration: underline;
 }
 
 .navlink a:hover{
