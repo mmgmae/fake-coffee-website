@@ -109,7 +109,25 @@ address {
 /* Flex Styling for Container next to Text */
 .container {
     display: flex;
+    align-items: center;
 }
+
+/* Our Story Styling */
+
+#over-img {
+    font-size: 4em;
+    text-align: right;
+    transform: translateY(-5em);
+    background: transparent;
+    padding-right: .5em;
+}
+
+#over-img em {
+    text-decoration: underline;
+    font-style: normal;
+    background: transparent;
+}
+
 
 /* Main Body Styling */
 
@@ -154,10 +172,6 @@ main {
 
 #beans {
     width: 100vmax;
-}
-
-#map {
-    
 }
 
 .art-words .art-text {
