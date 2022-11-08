@@ -141,15 +141,7 @@ address {
     width: 35vmax;
 
 }
-.art-text {
-    color: yellow;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 2.4rem;
-    text-shadow: 5px 20px, 10px 40px, 15px 60px, 20px 80px;
-}
+
 
 
 main {
@@ -161,6 +153,16 @@ main {
 }
 
 /* Images Styling */
+
+.art-text {
+    color: yellow;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2.4rem;
+    text-shadow: 5px 20px, 10px 40px, 15px 60px, 20px 80px;
+}
 
 #roaster {
     width: 100vmax;
