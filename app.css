@@ -190,6 +190,9 @@ main {
     background: transparent;
 }
 
+.side-beans {
+    width: 30vmax;
+}
 
 .container-r img {
     width: 30vmax;
