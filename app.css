@@ -128,6 +128,13 @@ address {
     background: transparent;
 }
 
+/* Menu Styling*/
+
+.flexbox-container {
+    display: flex;
+}
+
+
 
 /* Main Body Styling */
 
@@ -181,6 +188,23 @@ main {
     display: flex;
     justify-content: right;
     background: transparent;
+}
+
+
+.container-r img {
+    width: 30vmax;
+}
+
+.es-1 {
+
+}
+
+.es-2 {
+    mix-blend-mode: exclusion;
+}
+
+.es-3 {
+    mix-blend-mode: luminosity;
 }
 
 /* Footer Styling */
